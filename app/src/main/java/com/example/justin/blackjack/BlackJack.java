@@ -253,8 +253,8 @@ public class BlackJack extends ActionBarActivity {
                         loss.setPositiveButton("Yes",new DialogInterface.OnClickListener() {
                             @Override
                             public void onClick(DialogInterface dialog, int which) {
-                                playerScore=0;
-                                dealerScore=0;
+                                playerScore= 0;
+                                dealerScore= 0;
                                 dealer.setText("");
                                 player.setText("");
                                 dealer.append(deck[randomGenerator.nextInt(51)] + " " + deck[randomGenerator.nextInt(51)]);
